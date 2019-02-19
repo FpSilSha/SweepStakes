@@ -10,6 +10,7 @@ namespace SweepStakes
     {
         public string sweepstakesName;
         Dictionary<int, Contestant> contestants = new Dictionary<int, Contestant>();
+        private int registrationNumber = 00001;
         public Sweepstakes(string name)
         {
             sweepstakesName = name;
@@ -19,7 +20,9 @@ namespace SweepStakes
 
         public void RegisterContestant(Contestant contestant)
         {
-
+            contestant.registrationNumber = registrationNumber;
+            contestants.Add(contestant.registrationNumber, contestant);
+            registrationNumber++;
 
         }
 
