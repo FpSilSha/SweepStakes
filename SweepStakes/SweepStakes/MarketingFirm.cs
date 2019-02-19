@@ -10,12 +10,7 @@ namespace SweepStakes
     {
         public ISweepstakesManager sweepstakesStorage;
         
-        public void CreateSweepstakes(string name)
-        {
-             Sweepstakes newSweep = new Sweepstakes(name);
-            new
-        }
-
+      
 
     }
 }
