@@ -9,6 +9,16 @@ namespace SweepStakes
     class SweepstakesStackManager: SweepstakesManager, ISweepstakesManager
     {
 
+        Stack<Sweepstakes> sweepstakes = new Stack<Sweepstakes>();
+        public void InsertSweepstakes(Sweepstakes sweepstakes)
+        {
+
+        }
+
+        public Sweepstakes GetSweepstakes()
+        {
+
+        }
 
     }
 }
