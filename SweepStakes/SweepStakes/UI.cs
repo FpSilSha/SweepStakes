@@ -8,31 +8,31 @@ namespace SweepStakes
 {
     static class UI
     {
-        static string PickDataManagerType()
+        public static string PickDataManagerType()
         {
-            Console.WriteLine("Which type of data structure would you like? Please type Queue or Stack");
+            Console.WriteLine("\nWhich type of data structure would you like? Please type Queue or Stack\n");
             string stackOrQueue = Console.ReadLine();
             stackOrQueue = stackOrQueue.ToLower();
             return stackOrQueue;
         }
 
-        static string SetFirstName()
+        public static string SetFirstName()
         {
-            Console.WriteLine("Contestant's first name?");
+            Console.WriteLine("\nContestant's first name?\n");
             string firstName = Console.ReadLine();
             return firstName;              
         }
 
-        static string SetLastName()
+        public static string SetLastName()
         {
-            Console.WriteLine("Contestant's last name?");
+            Console.WriteLine("\nContestant's last name?\n");
             string lastName = Console.ReadLine();
             return lastName;
         }
 
-        static string SetEmail()
+        public static string SetEmail()
         {
-            Console.WriteLine("Contestant's email address?");
+            Console.WriteLine("\nContestant's email address?\n");
             string email = Console.ReadLine();
             return email;
         }
