@@ -30,7 +30,12 @@ namespace SweepStakes
             return lastName;
         }
 
-      
+        static string SetEmail()
+        {
+            Console.WriteLine("Contestant's email address?");
+            string email = Console.ReadLine();
+            return email;
+        }
 
         
     }
