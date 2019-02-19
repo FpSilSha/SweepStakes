@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    class UI
+    static class UI
     {
+        static string PickDataManagerType()
+        {
+            Console.WriteLine("Which type of data structure would you like? Please type Queue or Stack");
+            string stackOrQueue = Console.ReadLine();
+            stackOrQueue = stackOrQueue.ToLower();
+            return stackOrQueue;
+        }
+
+        
+        
     }
 }
