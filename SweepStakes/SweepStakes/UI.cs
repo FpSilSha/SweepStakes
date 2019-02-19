@@ -16,7 +16,14 @@ namespace SweepStakes
             return stackOrQueue;
         }
 
-        
+        static string SetFirstName()
+        {
+            Console.WriteLine("Contestant's first name?");
+            string firstName = Console.ReadLine();
+            return firstName;              
+        }
+
+       
         
     }
 }
