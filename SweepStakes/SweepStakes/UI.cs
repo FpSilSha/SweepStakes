@@ -23,7 +23,15 @@ namespace SweepStakes
             return firstName;              
         }
 
-       
+        static string SetLastName()
+        {
+            Console.WriteLine("Contestant's last name?");
+            string lastName = Console.ReadLine();
+            return lastName;
+        }
+
+      
+
         
     }
 }
