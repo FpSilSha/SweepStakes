@@ -10,8 +10,11 @@ namespace SweepStakes
     {
         static void Main(string[] args)
         {
-         
 
+
+            
+            MarketingFirm theRightChoice = new MarketingFirm();
+            theRightChoice.sweepstakesStorage = SweepstakesManagerCreator.GetSweepstakesManager();
 
         }
     }
