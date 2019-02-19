@@ -8,9 +8,10 @@ namespace SweepStakes
 {
     class Sweepstakes
     {
+        public string sweepstakesName;
         public Sweepstakes(string name)
         {
-
+            sweepstakesName = name;
         }
 
        
