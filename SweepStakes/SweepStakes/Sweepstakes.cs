@@ -32,6 +32,7 @@ namespace SweepStakes
             Random rnd = new Random();
             List<int> keyList = new List<int>(contestants.Keys);
             int numberWinner = keyList[rnd.Next(keyList.Count)];
+            winner = contestants[numberWinner];
             return contestants[numberWinner].firstName;
         }
 
