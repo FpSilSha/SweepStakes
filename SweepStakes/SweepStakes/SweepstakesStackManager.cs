@@ -17,7 +17,8 @@ namespace SweepStakes
 
         public Sweepstakes GetSweepstakes()
         {
-           
+            Sweepstakes nextSweep = sweepStorage.Pop();
+            return nextSweep;
 
         }
 
