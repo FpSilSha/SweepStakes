@@ -11,6 +11,7 @@ namespace SweepStakes
         public string sweepstakesName;
         Dictionary<int, Contestant> contestants = new Dictionary<int, Contestant>();
         private int registrationNumber = 00001;
+        Contestant winner;
         public Sweepstakes(string name)
         {
             sweepstakesName = name;
@@ -28,12 +29,13 @@ namespace SweepStakes
 
         public string PickWinner()
         {
-
+            Console.WriteLine();
 
         }
 
         public void PrintContestantInfo(Contestant contestant)
         {
+            Console.WriteLine($"The contestant's info is:\n {contestant.firstName}\n{contestant.lastName}\n{contestant.email}\n{contestant.registrationNumber}");
 
         }
     }
