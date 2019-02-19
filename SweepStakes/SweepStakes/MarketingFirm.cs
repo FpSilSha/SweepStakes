@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    class MarketingFirm
+    public class MarketingFirm
     {
         public ISweepstakesManager sweepstakesStorage;
         
-
+        public void CreateSweepstakes(string name)
+        {
+             Sweepstakes newSweep = new Sweepstakes(name);
+            new
+        }
 
 
     }
